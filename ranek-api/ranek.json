@@ -1,0 +1,173 @@
+{
+  "usuario": [
+    {
+      "id": "andre@origamid.com",
+      "email": "andre@origamid.com",
+      "nome": "André Rafael",
+      "senha": "123",
+      "rua": "Rua Ali Perto",
+      "cep": "12345678",
+      "numero": "25",
+      "estado": "RJ",
+      "cidade": "Rio de Janeiro"
+    },
+    {
+      "nome": "Letícia Binda Pimenta",
+      "email": "leticiabindapimenta@hotmail.com",
+      "id": "leticiabindapimenta@hotmail.com",
+      "senha": "123",
+      "rua": "Rua Antônio Coffer Netto",
+      "cep": "35200-000",
+      "numero": "",
+      "bairro": "",
+      "cidade": "Colatina",
+      "estado": "MG"
+    },
+    {
+      "nome": "GUIDONI ORNAMENTAL ROCKS LTDA",
+      "email": "leticiabindapimenta2@hotmail.com",
+      "id": "leticiabindapimenta2@hotmail.com",
+      "senha": "123",
+      "rua": "Rua Antônio Coffer Netto",
+      "cep": "29.745-000",
+      "numero": "193",
+      "bairro": "Igrejinha",
+      "cidade": "Colatina",
+      "estado": "ES"
+    },
+    {
+      "nome": "Luiz Fernando Binda Pimenta",
+      "email": "luiznandopimenta52@hotmail.com",
+      "id": "luiznandopimenta52@hotmail.com",
+      "senha": "123",
+      "rua": "Rua Antônio Coffer Netto",
+      "cep": "29700-105",
+      "numero": "193",
+      "bairro": "Centro",
+      "cidade": "Colatina",
+      "estado": "ES"
+    },
+    {
+      "nome": "Letícia Binda Pimenta",
+      "email": "leticiabindapimenta@hotmail.com1",
+      "id": "leticiabindapimenta@hotmail.com1",
+      "senha": "123",
+      "rua": "Rua Antônio Coffer Netto",
+      "cep": "35200-000",
+      "numero": "193",
+      "bairro": "Igrejinha",
+      "cidade": "Colatina",
+      "estado": "MG"
+    }
+  ],
+  "produto": [
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "andre@origamid.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "andre@origamid.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "andre@origamid.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "andre@origamid.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone 2",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    }
+  ]
+}
