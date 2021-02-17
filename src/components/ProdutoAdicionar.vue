@@ -8,12 +8,20 @@
     <input id="fotos" name="fotos" type="file" ref="fotos">
     <label for="Descricao">Descrição</label>
     <textarea id="Descricao" name="preco" v-model="produto.descricao"></textarea>
-    <input class="btn" type="button" value="Adicionar Produto" @click.prevent="adicionarProduto">
-  </form>
+    <input
+      class="btn"
+      type="button"
+      value="Adicionar Produto"
+      @click.prevent="adicionarProduto"
+      v-if="!loginRequest"
+    >
+    <PaginaCarregando class="carregando"  v-else />
+    </form>
 </template>
 
 <script>
 import api from '@/api';
+import { mapState } from 'vuex';
 
 export default {
   name: 'ProdutoAdicionar',
@@ -32,11 +40,15 @@ export default {
       this.produto.usuario_id = this.$store.state.usuario.id;
     },
     adicionarProduto() {
+      this.$store.commit('SET_STATE', { stateName: 'loginRequest', data: true });
       this.formatarProduto();
       api.post('/produto', this.produto).then(() => {
         this.$store.dispatch('getUsuarioProdutos');
       });
     },
+  },
+  computed: {
+    ...mapState(['loginRequest']),
   },
 };
 </script>
@@ -50,6 +62,10 @@ export default {
 }
 
 .btn {
+  grid-column: 2;
+}
+
+.carregando {
   grid-column: 2;
 }
 </style>

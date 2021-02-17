@@ -24,7 +24,7 @@ import api from '@/api';
 export default {
   components: { ProdutoItem, ProdutoAdicionar },
   computed: {
-    ...mapState(['login', 'usuario', 'usuario_produtos']),
+    ...mapState(['login', 'usuario', 'usuario_produtos', 'loginRequest']),
   },
   methods: {
     ...mapActions(['getUsuarioProdutos']),

@@ -77,12 +77,14 @@ export default new Vuex.Store({
       router.push({ name: 'login' });
     },
     getUsuarioProdutos(context) {
+      context.commit('SET_STATE', { stateName: 'loginRequest', data: true });
       api.get(`/produto?usuario_id=${context.state.usuario.id}`).then((response) => {
         context.commit('SET_STATE', {
           stateName: 'usuario_produtos',
           data: response.data,
         });
       });
+      context.commit('SET_STATE', { stateName: 'loginRequest', data: false });
     },
   },
   modules: {
