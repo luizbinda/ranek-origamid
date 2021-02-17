@@ -1,9 +1,21 @@
 {
   "usuario": [
     {
-      "id": "andre@origamid.com",
-      "email": "andre@origamid.com",
       "nome": "André Rafael",
+      "email": "andre@origamid.com",
+      "id": "andre@origamid.com",
+      "senha": "123",
+      "rua": "Rua Ali Perto",
+      "cep": "12345678",
+      "numero": "25",
+      "bairro": "Igrejinha",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    {
+      "id": "joao@origamid.com",
+      "email": "joao@origamid.com",
+      "nome": "João Marcos",
       "senha": "123",
       "rua": "Rua Ali Perto",
       "cep": "12345678",
@@ -12,28 +24,40 @@
       "cidade": "Rio de Janeiro"
     },
     {
+      "id": "maria@origamid.com",
+      "nome": "Maria das Neves",
+      "email": "maria@origamid.com",
+      "senha": "123",
+      "cep": "22640-102",
+      "rua": "Avenida das Américas",
+      "numero": "100",
+      "bairro": "Barra da Tijuca",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    {
+      "id": "mariana@origamid.com",
+      "nome": "Mariana",
+      "email": "mariana@origamid.com",
+      "senha": "123",
+      "cep": "22640-102",
+      "rua": "Avenida das Américas",
+      "numero": "100",
+      "bairro": "Barra da Tijuca",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    {
       "nome": "Letícia Binda Pimenta",
       "email": "leticiabindapimenta@hotmail.com",
       "id": "leticiabindapimenta@hotmail.com",
       "senha": "123",
-      "rua": "Rua Antônio Coffer Netto",
+      "rua": "Casa",
       "cep": "35200-000",
       "numero": "",
       "bairro": "",
-      "cidade": "Colatina",
+      "cidade": "Aimores",
       "estado": "MG"
-    },
-    {
-      "nome": "GUIDONI ORNAMENTAL ROCKS LTDA",
-      "email": "leticiabindapimenta2@hotmail.com",
-      "id": "leticiabindapimenta2@hotmail.com",
-      "senha": "123",
-      "rua": "Rua Antônio Coffer Netto",
-      "cep": "29.745-000",
-      "numero": "193",
-      "bairro": "Igrejinha",
-      "cidade": "Colatina",
-      "estado": "ES"
     },
     {
       "nome": "Luiz Fernando Binda Pimenta",
@@ -48,19 +72,142 @@
       "estado": "ES"
     },
     {
+      "nome": "GUIDONI ORNAMENTAL ROCKS LTDA",
+      "email": "leticiabindapiment122a@hotmail.com",
+      "id": "leticiabindapiment122a@hotmail.com",
+      "senha": "qw",
+      "rua": "Casa",
+      "cep": "29.745-000",
+      "numero": "",
+      "bairro": "",
+      "cidade": "Aimores",
+      "estado": "ES"
+    },
+    {
       "nome": "Letícia Binda Pimenta",
-      "email": "leticiabindapimenta@hotmail.com1",
-      "id": "leticiabindapimenta@hotmail.com1",
-      "senha": "123",
-      "rua": "Rua Antônio Coffer Netto",
+      "email": "leticiabindapimawenta@hotmail.com",
+      "id": "leticiabindapimawenta@hotmail.com",
+      "senha": "",
+      "rua": "",
       "cep": "35200-000",
-      "numero": "193",
-      "bairro": "Igrejinha",
-      "cidade": "Colatina",
+      "numero": "",
+      "bairro": "",
+      "cidade": "Aimorés",
+      "estado": "MG"
+    },
+    {
+      "nome": "Letícia Binda Pimenta",
+      "email": "leticiabinasasdapimenta@hotmail.com",
+      "id": "leticiabinasasdapimenta@hotmail.com",
+      "senha": "",
+      "rua": "",
+      "cep": "35200-000",
+      "numero": "",
+      "bairro": "",
+      "cidade": "Aimorés",
+      "estado": "MG"
+    },
+    {
+      "nome": "Letícia Binda Pimenta",
+      "email": "leticiabindapasassaimenta@hotmail.com1",
+      "id": "leticiabindapasassaimenta@hotmail.com1",
+      "senha": "",
+      "rua": "",
+      "cep": "35200-000",
+      "numero": "",
+      "bairro": "",
+      "cidade": "Aimorés",
+      "estado": "MG"
+    },
+    {
+      "nome": "Letícia Binda Pimenta",
+      "email": "leticiabindaasdw2pimenta@hotmail.com",
+      "id": "leticiabindaasdw2pimenta@hotmail.com",
+      "senha": "",
+      "rua": "",
+      "cep": "35200-000",
+      "numero": "",
+      "bairro": "",
+      "cidade": "Aimorés",
+      "estado": "MG"
+    },
+    {
+      "nome": "Letícia Binda Pimenta",
+      "email": "leticiabinqw222dapimenta@hotmail.com",
+      "id": "leticiabinqw222dapimenta@hotmail.com",
+      "senha": "",
+      "rua": "",
+      "cep": "35200-000",
+      "numero": "",
+      "bairro": "",
+      "cidade": "Aimorés",
       "estado": "MG"
     }
   ],
   "produto": [
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "andre@origamid.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "andre@origamid.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone 2",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
     {
       "id": "notebook",
       "nome": "Notebook",
@@ -168,6 +315,262 @@
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
       "fotos": null
+    },
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "andre@origamid.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "andre@origamid.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "andre@origamid.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "andre@origamid.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone 2",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "andre@origamid.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "andre@origamid.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "andre@origamid.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "andre@origamid.com",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": null
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone 2",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": null
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "andre@origamid.com",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": null
+    },
+    {
+      "nome": "Smartphone",
+      "preco": "2345",
+      "descricao": "Esse é um smart",
+      "fotos": null,
+      "usuario_id": "",
+      "id": "PZxT1zD"
+    },
+    {
+      "nome": "Tablet",
+      "preco": "2345",
+      "descricao": "Esse é um table novo.",
+      "fotos": null,
+      "usuario_id": "maria@origamid.com",
+      "id": "87YFaos"
+    },
+    {
+      "nome": "Tablet",
+      "preco": "2345",
+      "descricao": "Isso também",
+      "fotos": null,
+      "usuario_id": "maria@origamid.com",
+      "id": "yXLrHX9"
+    },
+    {
+      "nome": "fsafsfsa",
+      "preco": "2334",
+      "descricao": "fsaasf",
+      "fotos": null,
+      "usuario_id": "maria@origamid.com",
+      "id": "3reAOZl"
+    },
+    {
+      "nome": "aas",
+      "preco": "2500",
+      "descricao": "asdasdasd",
+      "fotos": null,
+      "usuario_id": "leticiabindapasassaimenta@hotmail.com1",
+      "id": "7D6CLAo"
     }
   ]
 }

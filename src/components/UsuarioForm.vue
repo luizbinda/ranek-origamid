@@ -1,5 +1,5 @@
 <template>
-  <form>
+  <form v-if="!loginRequest">
     <label for="nome">Nome</label>
     <input id="nome" name="nome" type="text" v-model="nome">
     <label for="email">Email</label>
@@ -22,10 +22,12 @@
       <slot></slot>
     </div>
   </form>
+  <PaginaCarregando v-else/>
 </template>
 
 <script>
 import { getCep } from '@/api';
+import { mapState } from 'vuex';
 
 export default {
   name: 'UsuarioForm',
@@ -69,8 +71,25 @@ export default {
           estado: this.estado,
         },
       });
-      this.$store.dispatch('criarUsuario', this.$store.state.usuario);
     },
+  },
+  computed: {
+    ...mapState(['loginRequest']),
+  },
+  created() {
+    if (this.$store.state.usuario.id) {
+      this.$store.dispatch('getUsuario', this.$store.state.usuario.id).then((response) => {
+        this.nome = response.nome ? response.nome : '';
+        this.email = response.email ? response.email : '';
+        this.senha = response.senha ? response.senha : '';
+        this.rua = response.rua ? response.rua : '';
+        this.cep = response.cep ? response.cep : '';
+        this.numero = response.numero ? response.numero : '';
+        this.bairro = response.bairro ? response.bairro : '';
+        this.cidade = response.cidade ? response.cidade : '';
+        this.estado = response.estado ? response.estado : '';
+      });
+    }
   },
 };
 </script>

@@ -2,12 +2,11 @@
   <section>
     <h2>Crie a Sua Conta</h2>
     <transition mode="out-in">
-      <button v-if="!criar" class="btn" @click="criar = true">Criar Conta</button>
-      <UsuarioForm v-else @teste="enviar">
-          <button v-if="!$store.state.loginRequest" class="btn btn-form" @click.prevent="enviar">
+      <button v-if="!criar" class="btn" @click.prevent="criar = true">Criar Conta</button>
+      <UsuarioForm v-else>
+          <button  class="btn btn-form" @click.prevent="enviar">
             Criar Usuário
           </button>
-        <PaginaCarregando v-else/>
       </UsuarioForm>
     </transition>
   </section>
@@ -24,7 +23,9 @@ export default {
   components: { UsuarioForm },
   methods: {
     async enviar() {
-      await this.$children[0].enviar();
+      this.$children[0].enviar();
+      await this.$store.dispatch('criarUsuario', this.$store.state.usuario);
+      await this.$router.push({ name: 'usuario' });
     },
   },
 };

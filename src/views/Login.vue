@@ -31,8 +31,11 @@ export default {
     };
   },
   methods: {
-    logar() {
-      this.$store.dispatch('getUsuario', this.login.email);
+    async logar() {
+      const response = await this.$store.dispatch('getUsuario', this.login.email);
+      if (response.id) {
+        this.$router.push({ name: 'usuario' });
+      }
     },
   },
 };
