@@ -19,8 +19,8 @@ export const numeroPreco = (valor) => {
   return '';
 };
 
-export function setState(self, stateName, data) {
-  self.$store.commit('SET_STATE', {
+export function setState(store, stateName, data) {
+  store.commit('SET_STATE', {
     stateName,
     data,
   });

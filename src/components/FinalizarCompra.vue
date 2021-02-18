@@ -62,13 +62,13 @@ export default {
       }
     },
     async finalizarCompra() {
-      setState(this, 'loginRequest', true);
+      setState(this.$store, 'loginRequest', true);
       if (this.$store.state.login) {
         await this.criarTransacao();
       } else {
         await this.criarUsuario();
       }
-      setState(this, 'loginRequest', false);
+      setState(this.$store, 'loginRequest', false);
     },
   },
 };

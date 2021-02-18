@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 import api from '@/api';
 import router from '@/router';
+import { setState } from '@/helpers';
 
 Vue.use(Vuex);
 
@@ -31,26 +32,26 @@ export default new Vuex.Store({
   actions: {
     async getUsuario(context, payload) {
       try {
-        context.commit('SET_STATE', { stateName: 'loginRequest', data: true });
+        setState(context, 'loginRequest', true);
         const response = await api.get(`/usuario/${payload}`);
         if (!(response.data instanceof Array)) {
-          context.commit('SET_STATE', { stateName: 'usuario', data: response.data });
-          context.commit('SET_STATE', { stateName: 'login', data: true });
-          context.commit('SET_STATE', { stateName: 'loginRequest', data: false });
+          setState(context, 'usuario', response.data);
+          setState(context, 'login', true);
+          setState(context, 'loginRequest', false);
           return response.data;
         }
         console.log('error');
-        context.commit('SET_STATE', { stateName: 'loginRequest', data: false });
+        setState(context, 'loginRequest', false);
         return context.state.usuario;
       } catch (erro) {
         console.log(erro);
-        context.commit('SET_STATE', { stateName: 'loginRequest', data: false });
+        setState(context, 'loginRequest', false);
         return context.state.usuario;
       }
     },
     async criarUsuario(context, payload) {
       try {
-        context.commit('SET_STATE', { stateName: 'loginRequest', data: true });
+        setState(context, 'loginRequest', true);
         const response = await api.post('/usuario', payload);
         await context.dispatch('getUsuario', response.data.id);
       } catch (erro) {
@@ -58,10 +59,11 @@ export default new Vuex.Store({
       }
     },
     deslogarUsuario(context) {
-      context.commit('SET_STATE', { stateName: 'login', data: false });
-      context.commit('SET_STATE', {
-        stateName: 'usuario',
-        data: {
+      setState(context, 'login', false);
+      setState(
+        context,
+        'usuario',
+        {
           id: '',
           nome: '',
           email: '',
@@ -73,18 +75,16 @@ export default new Vuex.Store({
           cidade: '',
           estado: '',
         },
-      });
+      );
       router.push({ name: 'login' });
     },
     getUsuarioProdutos(context) {
-      context.commit('SET_STATE', { stateName: 'loginRequest', data: true });
+      setState(context, 'loginRequest', true);
+      setState(context, 'usuario_produtos', null);
       api.get(`/produto?usuario_id=${context.state.usuario.id}`).then((response) => {
-        context.commit('SET_STATE', {
-          stateName: 'usuario_produtos',
-          data: response.data,
-        });
+        setState(context, 'usuario_produtos', response.data);
+        setState(context, 'loginRequest', false);
       });
-      context.commit('SET_STATE', { stateName: 'loginRequest', data: false });
     },
   },
   modules: {

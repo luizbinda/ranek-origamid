@@ -3,7 +3,7 @@
     <h2>Adicionar Produto</h2>
     <ProdutoAdicionar/>
     <h2>Seus Produtos</h2>
-    <transition-group v-if="usuario_produtos" name="list" tag="ul">
+    <transition-group v-if="usuario_produtos" name="list">
       <li v-for="(produto, index) in usuario_produtos" :key="index">
         <ProdutoItem :produto="produto">
           <p>{{produto.descricao}}</p>
@@ -31,11 +31,9 @@ export default {
     deletarProduto(id) {
       const confirmar = window.confirm('Deseja remover este produto?');
       if (confirmar) {
-        this.$store.commit('SET_STATE', { stateName: 'usuario_produtos', data: null });
         api.delete(`/produto/${id}`).then(() => {
           this.getUsuarioProdutos();
-        }).catch((error) => {
-          console.log(error.reponse);
+        }).catch(() => {
           this.getUsuarioProdutos();
         });
       }
@@ -43,6 +41,9 @@ export default {
   },
   watch: {
     login() {
+      this.getUsuarioProdutos();
+    },
+    url() {
       this.getUsuarioProdutos();
     },
   },
