@@ -34,7 +34,7 @@ export default {
     async logar() {
       const response = await this.$store.dispatch('getUsuario', this.login.email);
       if (response.id) {
-        this.$router.push({ name: 'usuario' });
+        this.$router.push({ name: 'usuario-produtos' });
       }
     },
   },

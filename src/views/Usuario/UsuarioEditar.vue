@@ -1,13 +1,15 @@
 <template>
   <section>
-    <UsuarioForm >
-      <button
-        v-if="!loginRequest"
-        class="btn"
-        @click.prevent="atualizarUsuario"
-      >Atualizar Usuário</button>
-      <PaginaCarregando v-else/>
-    </UsuarioForm>
+    <transition mode="out-in">
+      <UsuarioForm >
+        <button
+          v-if="!loginRequest"
+          class="btn"
+          @click.prevent="atualizarUsuario"
+        >Atualizar Usuário</button>
+        <PaginaCarregando v-else/>
+      </UsuarioForm>
+    </transition>
   </section>
 </template>
 
@@ -25,7 +27,7 @@ export default {
       api.put(`/usuario/${this.$store.state.usuario.id}`, this.$store.state.usuario)
         .then(() => {
           this.$store.dispatch('getUsuario');
-          this.$router.push({ name: 'usuario' });
+          this.$router.push({ name: 'usuario-produtos' });
         }).catch((error) => {
           console.log(error.response);
         });

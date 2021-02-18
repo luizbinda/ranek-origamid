@@ -3,7 +3,7 @@
     <nav class="sidenav">
       <ul>
         <li>
-          <router-link :to="{name: 'usuario'}">Produtos</router-link>
+          <router-link :to="{name: 'usuario-produtos'}">Produtos</router-link>
         </li>
         <li>
           <router-link :to="{name: 'compras'}">Compras</router-link>
@@ -62,9 +62,16 @@ export default {
   border-radius: 4px;
 }
 
-.sidenav a.router-link-exact-active,
+.sidenav a.router-link-active,
 .sidenav a:hover,
 .sidenav button:hover {
+  background: #87f;
+  color: #fff;
+}
+
+.usuario-active a.router-link-exact-active,
+.usuario-active a:hover,
+.usuario-active button:hover {
   background: #87f;
   color: #fff;
 }

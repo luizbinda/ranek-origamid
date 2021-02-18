@@ -146,40 +146,22 @@
   ],
   "produto": [
     {
-      "id": "smartphone",
-      "nome": "Smartphone",
-      "usuario_id": "andre@origamid.com",
-      "preco": "1999",
-      "vendido": "false",
-      "descricao": "Esse é um novo smartphone.",
-      "fotos": null
-    },
-    {
-      "id": "notebook",
-      "nome": "Notebook",
-      "usuario_id": "andre@origamid.com",
-      "preco": "4999",
-      "vendido": "false",
-      "descricao": "Esse é um novo notebook.",
-      "fotos": null
-    },
-    {
-      "id": "smartphone",
-      "nome": "Smartphone",
-      "usuario_id": "andre@origamid.com",
-      "preco": "1999",
-      "vendido": "false",
-      "descricao": "Esse é um novo smartphone.",
-      "fotos": null
-    },
-    {
       "id": "tablet",
       "nome": "Tablet",
       "usuario_id": "andre@origamid.com",
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "notebook",
@@ -188,7 +170,16 @@
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "smartphone",
@@ -197,7 +188,16 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "tablet",
@@ -206,7 +206,16 @@
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "notebook",
@@ -215,7 +224,16 @@
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "smartphone",
@@ -224,7 +242,16 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "tablet",
@@ -233,7 +260,16 @@
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "notebook",
@@ -242,7 +278,16 @@
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "smartphone",
@@ -251,7 +296,16 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "tablet",
@@ -260,7 +314,16 @@
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "notebook",
@@ -269,7 +332,16 @@
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "smartphone",
@@ -278,7 +350,16 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "tablet",
@@ -287,7 +368,16 @@
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "notebook",
@@ -296,7 +386,16 @@
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "smartphone",
@@ -305,7 +404,16 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "tablet",
@@ -314,7 +422,16 @@
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "notebook",
@@ -323,7 +440,16 @@
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "smartphone",
@@ -332,7 +458,16 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "tablet",
@@ -341,7 +476,16 @@
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "notebook",
@@ -350,7 +494,16 @@
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "smartphone",
@@ -359,7 +512,16 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "tablet",
@@ -368,7 +530,16 @@
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "notebook",
@@ -377,7 +548,16 @@
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "smartphone",
@@ -386,7 +566,16 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "tablet",
@@ -395,7 +584,16 @@
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "notebook",
@@ -404,7 +602,16 @@
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "smartphone",
@@ -413,7 +620,16 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "tablet",
@@ -422,7 +638,16 @@
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "notebook",
@@ -431,7 +656,16 @@
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "smartphone",
@@ -440,7 +674,16 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "tablet",
@@ -449,7 +692,16 @@
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "notebook",
@@ -458,7 +710,16 @@
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "smartphone",
@@ -467,7 +728,16 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "tablet",
@@ -476,7 +746,16 @@
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "notebook",
@@ -485,7 +764,16 @@
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "smartphone",
@@ -494,7 +782,16 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "tablet",
@@ -503,7 +800,16 @@
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "notebook",
@@ -512,7 +818,16 @@
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "smartphone",
@@ -521,7 +836,16 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "id": "tablet",
@@ -530,13 +854,31 @@
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ]
     },
     {
       "nome": "Smartphone",
       "preco": "2345",
       "descricao": "Esse é um smart",
-      "fotos": null,
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ],
       "usuario_id": "",
       "id": "PZxT1zD"
     },
@@ -544,7 +886,16 @@
       "nome": "Tablet",
       "preco": "2345",
       "descricao": "Esse é um table novo.",
-      "fotos": null,
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ],
       "usuario_id": "maria@origamid.com",
       "id": "87YFaos"
     },
@@ -552,7 +903,16 @@
       "nome": "Tablet",
       "preco": "2345",
       "descricao": "Isso também",
-      "fotos": null,
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ],
       "usuario_id": "maria@origamid.com",
       "id": "yXLrHX9"
     },
@@ -560,7 +920,16 @@
       "nome": "fsafsfsa",
       "preco": "2334",
       "descricao": "fsaasf",
-      "fotos": null,
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ],
       "usuario_id": "maria@origamid.com",
       "id": "3reAOZl"
     },
@@ -568,9 +937,330 @@
       "nome": "aas",
       "preco": "2500",
       "descricao": "asdasdasd",
-      "fotos": null,
+      "fotos": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+          "titulo": "Note"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+          "titulo": "Tablet"
+        }
+      ],
       "usuario_id": "leticiabindapasassaimenta@hotmail.com1",
       "id": "7D6CLAo"
+    }
+  ],
+  "transacao": [
+    {
+      "comprador_id": "andre@origamid.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "andre@origamid.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+            "titulo": "Note"
+          },
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+            "titulo": "Tablet"
+          }
+        ]
+      },
+      "endereco": {
+        "cep": "12345678",
+        "rua": "Rua Ali Perto",
+        "numero": "25",
+        "bairro": "Igrejinha",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "id": 1
+    },
+    {
+      "comprador_id": "andre@origamid.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "andre@origamid.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+            "titulo": "Note"
+          },
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+            "titulo": "Tablet"
+          }
+        ]
+      },
+      "endereco": {
+        "cep": "12345678",
+        "rua": "Rua Ali Perto",
+        "numero": "25",
+        "bairro": "Igrejinha",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "id": 2
+    },
+    {
+      "comprador_id": "andre@origamid.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "andre@origamid.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+            "titulo": "Note"
+          },
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+            "titulo": "Tablet"
+          }
+        ]
+      },
+      "endereco": {
+        "cep": "12345678",
+        "rua": "Rua Ali Perto",
+        "numero": "25",
+        "bairro": "Igrejinha",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "id": 3
+    },
+    {
+      "comprador_id": "andre@origamid.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "andre@origamid.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+            "titulo": "Note"
+          },
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+            "titulo": "Tablet"
+          }
+        ]
+      },
+      "endereco": {
+        "cep": "12345678",
+        "rua": "Rua Ali Perto",
+        "numero": "25",
+        "bairro": "Igrejinha",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "id": 4
+    },
+    {
+      "comprador_id": "andre@origamid.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "andre@origamid.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+            "titulo": "Note"
+          },
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+            "titulo": "Tablet"
+          }
+        ]
+      },
+      "endereco": {
+        "cep": "12345678",
+        "rua": "Rua Ali Perto",
+        "numero": "25",
+        "bairro": "Igrejinha",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "id": 5
+    },
+    {
+      "comprador_id": "andre@origamid.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "andre@origamid.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+            "titulo": "Note"
+          },
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+            "titulo": "Tablet"
+          }
+        ]
+      },
+      "endereco": {
+        "cep": "12345678",
+        "rua": "Rua Ali Perto",
+        "numero": "25",
+        "bairro": "Igrejinha",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "id": 6
+    },
+    {
+      "comprador_id": "andre@origamid.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "andre@origamid.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+            "titulo": "Note"
+          },
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+            "titulo": "Tablet"
+          }
+        ]
+      },
+      "endereco": {
+        "cep": "12345678",
+        "rua": "Rua Ali Perto",
+        "numero": "25",
+        "bairro": "Igrejinha",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "id": 7
+    },
+    {
+      "comprador_id": "andre@origamid.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "andre@origamid.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+            "titulo": "Note"
+          },
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+            "titulo": "Tablet"
+          }
+        ]
+      },
+      "endereco": {
+        "cep": "12345678",
+        "rua": "Rua Ali Perto",
+        "numero": "25",
+        "bairro": "Igrejinha",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "id": 8
+    },
+    {
+      "comprador_id": "andre@origamid.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "tablet",
+        "nome": "Tablet",
+        "usuario_id": "andre@origamid.com",
+        "preco": "1399",
+        "vendido": "false",
+        "descricao": "Esse é um novo tablet.",
+        "fotos": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+            "titulo": "Note"
+          },
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+            "titulo": "Tablet"
+          }
+        ]
+      },
+      "endereco": {
+        "cep": "12345678",
+        "rua": "Rua Ali Perto",
+        "numero": "25",
+        "bairro": "Igrejinha",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "id": 9
+    },
+    {
+      "comprador_id": "andre@origamid.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "andre@origamid.com",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzMSgUvkhX2GzWSY4NUDbXIDnUA0Hk9qw0Q&usqp=CAU",
+            "titulo": "Note"
+          },
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79VtrHFtIN2qPpMFsKzeL9Hx7PliEF72dqQ&usqp=CAU",
+            "titulo": "Tablet"
+          }
+        ]
+      },
+      "endereco": {
+        "cep": "12345678",
+        "rua": "Rua Ali Perto",
+        "numero": "25",
+        "bairro": "Igrejinha",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "id": 10
     }
   ]
 }

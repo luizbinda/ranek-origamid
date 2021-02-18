@@ -21,9 +21,18 @@ export default {
   },
 };
 </script>
-<style>
 
-body, ul, li, h1, h2, p {
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body,
+ul,
+li,
+h1,
+h2,
+p {
   padding: 0px;
   margin: 0px;
 }
@@ -33,10 +42,11 @@ ul {
 }
 
 body {
-  font-family: "Avenir", Arial, Helvetica, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   color: #345;
   background: url("./assets/pattern.svg") repeat top;
 }
+
 a {
   color: #345;
   text-decoration: none;
@@ -52,13 +62,13 @@ img {
   padding: 10px 30px;
   background: #87f;
   border-radius: 4px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 1rem;
   box-shadow: 0 4px 8px rgba(30, 60, 90, 0.2);
   transition: all 0.3s;
   border: none;
-  font-family: "Avenir", Arial, Helvetica, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   cursor: pointer;
 }
 
@@ -67,15 +77,24 @@ img {
   transform: scale(1.1);
 }
 
+.btn-disabled,
+.btn-disabled:hover {
+  background: #bbc;
+  transform: scale(1);
+}
+
 #app {
   display: flex;
-  flex-direction: column;
   min-height: 100vh;
-
+  flex-direction: column;
 }
 
 #main {
   flex: 1;
+}
+
+label {
+  margin-bottom: 5px;
 }
 
 input,
@@ -88,10 +107,7 @@ textarea {
   font-size: 1rem;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   margin-bottom: 15px;
-}
-
-label {
-  margin-bottom: 5px;
+  width: 100%;
 }
 
 input:hover,

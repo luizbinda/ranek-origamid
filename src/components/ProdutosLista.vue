@@ -62,7 +62,6 @@ export default {
   },
 };
 </script>
-
 <style scoped>
 .produtos-container {
   max-width: 1000px;
@@ -74,6 +73,14 @@ export default {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
   margin: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .produtos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 10px;
+  }
 }
 
 .produto {

@@ -8,12 +8,17 @@ import UsuarioProdutos from '@/views/Usuario/UsuarioProdutos.vue';
 import UsuarioCompras from '@/views/Usuario/UsuarioCompras.vue';
 import UsuarioVendas from '@/views/Usuario/UsuarioVendas.vue';
 import UsuarioEditar from '@/views/Usuario/UsuarioEditar.vue';
+import PaginaNaoEncontrada from '@/views/PaginaNaoEncontrada.vue';
 import Home from '../views/Home.vue';
 
 Vue.use(VueRouter);
 Vue.filter('numeroPreco', numeroPreco);
 
 const routes = [
+  {
+    path: '*',
+    component: PaginaNaoEncontrada,
+  },
   {
     path: '/',
     name: 'home',
@@ -34,10 +39,13 @@ const routes = [
     path: '/usuario',
     name: 'usuario',
     component: Usuario,
+    meta: {
+      login: true,
+    },
     children: [
       {
-        path: '',
-        name: 'usuario',
+        path: 'produtos',
+        name: 'usuario-produtos',
         component: UsuarioProdutos,
       },
       {
